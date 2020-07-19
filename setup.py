@@ -5,8 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="vphackez",
-    version='0.1',
-    script=['vphackez'],
+    version='0.1.2',
+    script=[
+        'bin/vphack-a',
+        'bin/vphack-n'],
     author='Viper Hacker',
     author_email='viperhackerth@gmail.com',
     description='A Tools Viper Hacker @onehack',

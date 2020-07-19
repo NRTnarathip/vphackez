@@ -1,14 +1,19 @@
 Metadata-Version: 2.1
 Name: vphackez
-Version: 0.1
+Version: 0.1.2
 Summary: A Tools Viper Hacker @onehack
 Home-page: https://github.com/NRTnarathip/vphackez.git
 Author: Viper Hacker
 Author-email: viperhackerth@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: thanks for download
 Platform: UNKNOWN
-Classifier: Programing Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
