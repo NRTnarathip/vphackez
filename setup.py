@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="vphackez",
-    version='0.1.2',
+    version='0.1.3',
     script=[
         'bin/vphack-a',
         'bin/vphack-n'],
@@ -21,9 +21,6 @@ setuptools.setup(
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
         'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: MIT License',
     ],
 )
