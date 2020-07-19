@@ -1,6 +1,7 @@
 README.md
 setup.cfg
 setup.py
+bin/vphack-a
 vphack/__init__.py
 vphackez.egg-info/PKG-INFO
 vphackez.egg-info/SOURCES.txt

@@ -5,17 +5,16 @@ with open("README.md") as fh:
 
 setuptools.setup(
     name="vphackez",
-    version='0.1.3',
-    script=[
-        'bin/vphack-a',
-        'bin/vphack-n'],
+    packages=['vphack'],
+    version='0.1.2',
+    scripts=[
+        'bin/vphackez-a',],
     author='Viper Hacker',
     author_email='viperhackerth@gmail.com',
     description='A Tools Viper Hacker @onehack',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url="https://github.com/NRTnarathip/vphackez.git",
-    packages=['vphack'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
