@@ -1,8 +1,10 @@
 README.md
 setup.cfg
 setup.py
+bin/vphackez
 bin/vphackez-a
 vphack/__init__.py
+vphack/mainhack.py
 vphackez.egg-info/PKG-INFO
 vphackez.egg-info/SOURCES.txt
 vphackez.egg-info/dependency_links.txt
