@@ -1,12 +1,14 @@
 import setuptools
 
-with open("README.md","r") as fh:
+with open("README.md") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="vphackez",
+    name="vphack",
     packages=['vphack'],
-    version='0.1.1',
+    package_dir={'vphack':'vphack/src'},
+    version='0.0.2',
+    license='License.txt',
     scripts=['bin/vphackez-a',
              'bin/vphackez'],
     author='Viper Hacker',
